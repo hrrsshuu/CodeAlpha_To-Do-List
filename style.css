@@ -100,7 +100,7 @@ button {
     outline: none;
 }
 
-#task-list {
+.task-list {
     display: flex;
     flex-direction: column;
     gap: 10px;

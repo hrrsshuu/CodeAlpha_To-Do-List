@@ -46,7 +46,7 @@ const updateTaskList = () => {
 
 const editTask = (index) => {
     const taskInput = document.getElementById("taskInput");
-    taskInput.value = tasks[index].txt;
+    taskInput.value = tasks[index].text;
 
     tasks.splice(index, 1);
     updateTaskList();
